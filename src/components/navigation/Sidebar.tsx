@@ -14,30 +14,30 @@ const Sidebar: React.FC<SidebarProps> = ({ organizationName, subAgencyCity }) =>
   const pathname = usePathname();
 
   const navItems = [
-    { name: 'Dashboard', href: '/dashboard/owner' }, // Sera ajusté par le layout parent
-    { name: 'Sous-Agences', href: '/dashboard/owner/sub-agencies' },
-    { name: 'Personnel', href: '/dashboard/owner/personnel' },
-    { name: 'Bus', href: '/dashboard/owner/buses' },
-    { name: 'Clients', href: '/dashboard/owner/clients' },
-    { name: 'Voyages', href: '/dashboard/owner/trips' },
-    { name: 'Finance', href: '/dashboard/owner/finance' },
-    { name: 'Documents', href: '/dashboard/owner/documents' },
-    { name: 'Notifications', href: '/dashboard/owner/notifications' },
-    { name: 'Rôles', href: '/dashboard/owner/roles' },
-    { name: 'Audit Trail', href: '/dashboard/owner/audit-trail' },
-    { name: 'Tarifs', href: '/dashboard/owner/tariffs' },
+    { name: 'Dashboard', href: '/owner' }, // Sera ajusté par le layout parent
+    { name: 'Sous-Agences', href: '/owner/sub-agencies' },
+    { name: 'Personnel', href: '/owner/personnel' },
+    { name: 'Bus', href: '/owner/buses' },
+    { name: 'Clients', href: '/owner/clients' },
+    { name: 'Voyages', href: '/owner/trips' },
+    { name: 'Finance', href: '/owner/finance' },
+    { name: 'Documents', href: '/owner/documents' },
+    { name: 'Notifications', href: '/owner/notifications' },
+    { name: 'Rôles', href: '/owner/roles' },
+    { name: 'Audit Trail', href: '/owner/audit-trail' },
+    { name: 'Tarifs', href: '/owner/tariffs' },
   ];
 
   // Filtrer les navItems en fonction de la présence de subAgencyCity
   const displayedNavItems = subAgencyCity
     ? [
-        { name: 'Dashboard', href: '/dashboard/sub-agency' },
-        { name: 'Personnel', href: '/dashboard/sub-agency/personnel' },
-        { name: 'Bus', href: '/dashboard/sub-agency/buses' },
-        { name: 'Voyages', href: '/dashboard/sub-agency/trips' },
-        { name: 'Rapports', href: '/dashboard/sub-agency/reports' },
-        { name: 'Messages', href: '/dashboard/sub-agency/messages' },
-        { name: 'Mon Profil', href: '/dashboard/sub-agency/profile' },
+        { name: 'Dashboard', href: '/sub-agency' },
+        { name: 'Personnel', href: '/sub-agency/personnel' },
+        { name: 'Bus', href: '/sub-agency/buses' },
+        { name: 'Voyages', href: '/sub-agency/trips' },
+        { name: 'Rapports', href: '/sub-agency/reports' },
+        { name: 'Messages', href: '/sub-agency/messages' },
+        { name: 'Mon Profil', href: '/sub-agency/profile' },
       ]
     : navItems;
 

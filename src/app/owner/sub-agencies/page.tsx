@@ -1,3 +1,6 @@
+//src/app/owner/sub-agencies/page.tsx
+
+'use client';
 import React from 'react';
 import { Card, CardHeader, CardTitle, CardContent, CardDescription } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';

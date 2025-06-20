@@ -1,3 +1,5 @@
+//src/components/dashboard/KpiCard.tsx
+
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { cn } from '@/lib/utils'; // Assurez-vous que ce chemin est correct

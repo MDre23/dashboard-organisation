@@ -1,3 +1,6 @@
+//src/composents/navigation/Navbar.tsx
+
+'use client';
 import React from 'react';
 import { FaBell, FaUserCircle, FaSignOutAlt } from 'react-icons/fa'; // Exemple d'icônes
 

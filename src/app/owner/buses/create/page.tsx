@@ -1,4 +1,5 @@
-// import { BusForm } from '../components/BusForm'; // To be created
+//src/app/buses/create/page.tsx
+//import { BusForm } from '../components/BusForm'; // To be created
 export default function CreateBusPage() {
     return (
       <div className="space-y-6">

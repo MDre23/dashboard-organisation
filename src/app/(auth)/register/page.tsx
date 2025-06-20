@@ -1,3 +1,4 @@
+//src/app/(auth)/register/page.tsx
 'use client';
 
 import OrganizationSignupForm from '@/components/forms/OrganizationSignupForm';

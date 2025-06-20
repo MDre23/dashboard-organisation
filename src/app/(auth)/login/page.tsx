@@ -1,6 +1,6 @@
-'use client';
+// src/app/(auth)/login/page.tsx
 
-// src/app/page.tsx
+'use client';
 import LoginForm from '@/components/forms/LoginForm'; // Assurez-vous que le chemin est correct
 
 export default function HomePage() {

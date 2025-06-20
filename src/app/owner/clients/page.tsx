@@ -1,4 +1,5 @@
 // src/app/owner/clients/page.tsx
+'use client';
 import React from 'react';
 import { Card, CardHeader, CardTitle, CardContent, CardDescription } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button'; // Pas de bouton "Ajouter" pour les clients ici, mais utile pour d'autres actions.

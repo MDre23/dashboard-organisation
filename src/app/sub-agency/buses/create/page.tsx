@@ -1,4 +1,5 @@
 // src/app/sub-agency/buses/create/page.tsx
+'use client';
 import React from 'react';
 import { Card, CardHeader, CardTitle, CardContent, CardDescription } from '@/components/ui/Card';
 import { Input } from '@/components/ui/Input';
